@@ -81,7 +81,7 @@ The framework consists of five main stages:
 5. **Evaluation + hyperparameter tuning**
 
 <p align="center">
-  <img src="RL5G_System_Model.png" width="700">
+  <img src="RL5G_System_Model.png" width="500">
   <br>
   <b>Figure 1:</b> System model architecture.
 </p>
@@ -157,7 +157,7 @@ We evaluated four tuning strategies:
 ### RL agents before tuning
 
 <p align="center">
-  <img src="RL5G_Models_before_HT.png" width="900">
+  <img src="RL5G_Models_before_HT.png" width="700">
   <br>
   <b>Figure 3:</b> Feature correlation with QoS.
 </p>
@@ -224,7 +224,7 @@ We evaluated four tuning strategies:
 - efficiency
 
 <p align="center">
-  <img src="RL5G_HT.png" width="850">
+  <img src="RL5H_HT.png" width="850">
   <br>
   <b>Figure 4:</b> RL agents episode reward over mean comparison for the first 2000 episodes.
 </p>
