@@ -81,7 +81,7 @@ The framework consists of five main stages:
 5. **Evaluation + hyperparameter tuning**
 
 <p align="center">
-  <img src="assets/system_model.png" width="700">
+  <img src="RL5G_System_Model.png" width="700">
   <br>
   <b>Figure 1:</b> System model architecture.
 </p>
@@ -101,7 +101,7 @@ The dataset contains **30 features** and focuses on how QoS varies under differe
 - Correlation analysis between input features and QoS
 
 <p align="center">
-  <img src="assets/correlation_qos.png" width="900">
+  <img src="correlation.png" width="900">
   <br>
   <b>Figure 2:</b> Feature correlation with QoS.
 </p>
@@ -157,10 +157,11 @@ We evaluated four tuning strategies:
 ### RL agents before tuning
 
 <p align="center">
-  <img src="assets/rl_agents_performance.png" width="850">
+  <img src="RL5G_Models_before_HT.png" width="900">
   <br>
-  <b>Figure 3:</b> Performance of DQN, A2C, and PPO before hyperparameter tuning.
+  <b>Figure 3:</b> Feature correlation with QoS.
 </p>
+
 
 ### Best tuning strategy per agent
 
@@ -223,10 +224,15 @@ We evaluated four tuning strategies:
 - efficiency
 
 <p align="center">
+  <img src="RL5G_HT.png" width="850">
+  <br>
+  <b>Figure 4:</b> RL agents episode reward over mean comparison for the first 2000 episodes.
+</p>
+<!-- <p align="center">
   <img src="assets/optimized_agents_comparison.png" width="850">
   <br>
   <b>Figure 4:</b> RL agents episode reward mean comparison for the first 2000 episodes.
-</p>
+</p> -->
 
 ---
 
